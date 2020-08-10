@@ -9,10 +9,10 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <Header 
-                backgroundImage={headerBackground} 
-                heading='Clean Blog' 
-                subheading='A Blog Theme by Start Bootstrap' 
+            <Header
+                backgroundImage={headerBackground}
+                heading='IICUB Blog'
+                subheading='Building human capacity for social good'
             />
             <AllPosts />
             <Footer />

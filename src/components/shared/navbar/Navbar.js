@@ -6,7 +6,7 @@ export default function Navbar() {
         <React.Fragment>
             <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
                 <div className="container">
-                    <Link to="/" className="navbar-brand">Start Bootstrap</Link>
+                    <Link to="/" className="navbar-brand"><img src='../src/images/logo.png' alt="iichub" /></Link>
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         Menu
                         <i className="fas fa-bars" />
